@@ -47,16 +47,11 @@ class Solution:
         result = [data for _, data in sorted_bottom_view]
         return result
 
-#{ 
- # Driver Code Starts
-#Initial Template for Python 3
-
 import sys
 sys.setrecursionlimit(50000)
-#Contributed by Sudarshan Sharma
+
 from collections import deque
 from collections import defaultdict
-# Tree Node
 class Node:
     def __init__(self, val):
         self.right = None
